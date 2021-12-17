@@ -1,0 +1,35 @@
+body {
+    margin: 0 0 0 0;
+    background-color: #1f2422;
+    opacity: 1;
+    background-image:  linear-gradient(30deg, #273027 12%, transparent 12.5%, transparent 87%, #273027 87.5%, #273027), linear-gradient(150deg, #273027 12%, transparent 12.5%, transparent 87%, #273027 87.5%, #273027), linear-gradient(30deg, #273027 12%, transparent 12.5%, transparent 87%, #273027 87.5%, #273027), linear-gradient(150deg, #273027 12%, transparent 12.5%, transparent 87%, #273027 87.5%, #273027), linear-gradient(60deg, #27302777 25%, transparent 25.5%, transparent 75%, #27302777 75%, #27302777), linear-gradient(60deg, #27302777 25%, transparent 25.5%, transparent 75%, #27302777 75%, #27302777);
+    background-size: 24px 42px;
+    background-position: 0 0, 0 0, 12px 21px, 12px 21px, 0 0, 12px 21px;    text-align: center;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    height: 10rem;
+    content: url(logo.png);
+    object-fit: contain;
+    padding: 10px 0 0 0;
+    margin-bottom: 30px;
+}
+
+.quote {
+    font-family: 'Prociono', serif;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 1.5;
+    text-overflow: clip;
+    text-align: center;  
+    padding: 10px;
+    background-color: rgba(65, 65, 65, 0.205);
+    width: 87%;
+    height: auto;
+    margin: auto;
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    color: white;
+}
